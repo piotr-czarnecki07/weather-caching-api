@@ -7,7 +7,7 @@ Saved caches are stored for an hour and then deleted.
 
 If the website is to be hosted, the `ALLOWED_HOSTS` variable should be updated to match the domain.
 
-# Starting the Environment
+## Starting the Environment
 
 *Note: If the project is hosted on a domain, there's no need to follow the steps below.*
 
@@ -19,14 +19,14 @@ If the website is to be hosted, the `ALLOWED_HOSTS` variable should be updated t
 6. Change the Command Prompt's current working directory to the `./weather_api/` directory.
 7. Run `manage.py runserver` and open the browser on the provided host.
 
-# Usage
+## Usage
 
 On the main page, there is an input field where you can enter the name of the city for which you want to obtain the weather.  
 After entering the city name (in English), you will be shown the current weather for that city.  
 Underneath, there's a forecast for the next days.  
 By clicking on one of these, you can see the details of the weather for that day.
 
-# Credits
+## Credits
 
 - Idea: [https://roadmap.sh/projects/weather-api-wrapper-service](https://roadmap.sh/projects/weather-api-wrapper-service)  
 - API: [https://www.weatherapi.com](https://www.weatherapi.com)  
