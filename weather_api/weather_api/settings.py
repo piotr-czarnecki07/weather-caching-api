@@ -43,7 +43,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware'
 ]
 
-ROOT_URLCONF = 'weather.urls'
+ROOT_URLCONF = 'weather_api.urls'
 
 TEMPLATES = [
     {
@@ -61,7 +61,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'weather.wsgi.application'
+WSGI_APPLICATION = 'weather_api.wsgi.application'
 
 DATABASES = {
     'default': {
