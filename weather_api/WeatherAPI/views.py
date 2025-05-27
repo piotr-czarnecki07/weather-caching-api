@@ -19,7 +19,8 @@ def city(requset, city: str):
         port=config.get('DB_PORT'),
         username=config.get('DB_USERNAME'),
         password=config.get('DB_PASSWORD'),
-        decode_responses=False
+        decode_responses=False,
+        db=2,
     )
 
     city = city.title()
@@ -77,7 +78,8 @@ def atDay(request, city: str, day: int):
         port=config.get('DB_PORT'),
         username=config.get('DB_USERNAME'),
         password=config.get('DB_PASSWORD'),
-        decode_responses=False
+        decode_responses=False,
+        db=2,
     )
 
     cache = r.get(city)
