@@ -1,3 +1,4 @@
+info.txt
 venv/
 weather_api/.env
 weather_api/db.sqlite3
