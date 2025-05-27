@@ -1,3 +1,7 @@
+# IMPORTANT
+
+Redis might not be available due to the free database plan and Redis policy, which removes unused free databases after a period of inactivity.
+
 # Overview
 
 Web scraping application for fetching weather data from an API.  
