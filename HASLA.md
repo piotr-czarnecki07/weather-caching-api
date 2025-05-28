@@ -1,6 +1,7 @@
 # Hasła
 
 Ten plik przechowuje hasła potrzebne do stworzenia pliku `.env` \
+W zwyczajnych warunkach hasła nie były by udostępnione \
 Poniższą zawartością należy uzupełnić plik `.env` stworzony według `.env.example`
 
 ```
