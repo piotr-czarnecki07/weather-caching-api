@@ -19,7 +19,7 @@ If the website is to be hosted, the `ALLOWED_HOSTS` variable should be updated t
 2. Create a virtual environment, for example, by running `py -m venv venv` in the Command Prompt.
 3. Activate the environment.
 4. Install dependencies from `requirements.txt`.
-5. Create a `.env` file based on the `.env.example` in the `./weather_api/` directory.
+5. Create a `.env` file based on the `.env.example` in the same directory as `.env.example`. (UWAGA: na potrzeby rekrutacji wzór pliku `.env` jest dostępny w [HASLA](./HASLA.md)).
 6. Change the Command Prompt's current working directory to the `./weather_api/` directory.
 7. Run `manage.py runserver` and open the browser on the provided host.
 
